@@ -2,6 +2,9 @@
     "name": "restserver",
     "version": "1.0.0",
     "main": "index.js",
+    "engines": {
+        "node": "12.6.0"
+    },
     "scripts": {
         "start": "node server/server.js",
         "nodemon": "nodemon server/server"
