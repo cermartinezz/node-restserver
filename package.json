@@ -3,11 +3,16 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "start": "node server/server.js"
+        "start": "node server/server.js",
+        "nodemon": "nodemon server/server"
     },
     "license": "MIT",
     "dependencies": {
+        "bcrypt": "^3.0.6",
         "body-parser": "^1.19.0",
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "mongoose": "^5.6.11",
+        "mongoose-unique-validator": "^2.0.3",
+        "underscore": "^1.9.1"
     }
 }
